@@ -1,0 +1,459 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    position: relative;
+}
+.text01{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    top: 660px;
+    right: 54%;
+}
+.backimage{
+    background-image: url('./image/photo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 875px;
+    background-position: center center;
+}
+header{
+    height: 105px;
+    display: flex;
+    justify-content: center;
+}
+.big{
+    display: flex;
+    align-items: center;
+    gap: 450px;
+}
+.contaneir{
+    margin: 0 auto ;
+    width: 85%;
+}
+ul{
+    display: flex;
+    gap: 32px;
+}
+li a{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s  ease-in-out;
+}
+li a:hover{
+    color: #F57520;
+}
+.span1{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.header_icons{
+    position: absolute;
+    display: flex;
+    gap: 58px;
+    align-items: center;
+}
+.header_icons i{
+    font-size: 19px;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.header_icons i:hover{
+    color: #F57520;
+}
+.circle-orange1{
+    top: -3px;
+    left: 15px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #F57520;
+    border-radius: 15px;
+}
+.circle-orange2{
+    top: -3px;
+    left: 43%;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #F57520;
+    border-radius: 15px;
+}
+.header-part1{
+    display: flex;
+    align-items: center;
+    gap: 206px;
+}
+.part1 p:nth-child(1){
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 118.08px;
+    letter-spacing: 0.02em;
+    color: white;
+    width: 679px;
+}
+.part1 p:nth-child(2){
+    color: white;
+    width: 645px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+}
+.part1 button{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 16px 45px ;
+    background-color: transparent;
+    border-radius: 10px;
+    border:2px solid #F57520;
+    transition: 0.2s ease-in-out;
+    color: #F57520;
+}
+.part1 button:hover{
+    color: white;
+    background-color: #F57520;
+}
+.big2{
+    display: flex;
+    justify-content: start;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 48px;
+}
+.text1{
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 122px;
+    padding-top: 109px;
+}
+.part2{
+    background-color: #777777;
+    height: 1200px;
+}
+.part3{
+    background-color: #777777;
+    height: 1380px;
+}
+.grid{
+    margin: 0 auto ;
+    height: 758px;
+    width: 1280px;
+    display: grid;
+    grid-template-areas: 
+    "c1 c1 c1"
+    "c2 c3 c4"
+    "c2 c5 c6"
+    ;
+    grid-gap: 20px;
+}
+.grids1{
+    height: 300px;
+    grid-area: c1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    transition: 0.2s ease-in-out;
+}
+.grids1:hover{
+    background-color: #F57520;
+}
+.grids1 p{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.05em;
+}
+.grids2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 400px;
+    height: 458px;
+    grid-area: c2;
+    border-radius: 10px;
+    background-color: black;
+    transition: 0.2s ease-in-out;
+}
+.grids2 img{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.grids2 p{
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.05em;
+}
+.grids2:hover{
+    background-color: #F57520;
+}
+.grids3{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 400px;
+    height: 216px;
+    grid-area: c3;
+    border-radius: 10px;
+    background-color: black;
+    transition: 0.2s ease-in-out;
+}
+.grids3 p{
+    margin-top: 29px;
+    margin-left: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.05em;
+}
+.grids3:hover{
+    background-color: #F57520;
+}
+.grids4{
+    position: relative;
+    width: 400px;
+    height: 216px;
+    grid-area: c4;
+    border-radius: 10px;
+    background-color: black;
+    transition: 0.2s ease-in-out;
+}
+.grids4 img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.grids4 p{
+    margin-top: 29px;
+    margin-left: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.05em;
+}
+.grids4:hover{
+    background-color: #F57520;
+}
+.grids5{
+    position: relative;
+    width: 400px;
+    height: 216px;
+    grid-area: c5;
+    border-radius: 10px;
+    background-color: black;
+    transition: 0.2s ease-in-out;
+}
+.grids5 img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.grids5 p{
+    margin-top: 29px;
+    margin-left: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.05em;
+}
+.grids5:hover{
+    background-color: #F57520;
+}
+.grids6{
+    position: relative;
+    width: 400px;
+    height: 216px;
+    grid-area: c6;
+    border-radius: 10px;
+    background-color: black;
+    transition: 0.2s ease-in-out;
+}
+.grids6 img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.grids6 p{
+    margin-top: 29px;
+    margin-left: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.05em;
+}
+.grids6:hover{
+    background-color: #F57520;
+}
+.cards{
+    width: 400px;
+    height: 462px;
+    border-radius: 10px;
+    background-color: black;
+    transition: 0.2s ease-in-out;
+}
+.cards img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.text2{
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    margin-left: 27px;
+}
+.text3{
+    width: 325px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    margin-left: 27px;
+}
+.cards:hover{
+    background-color: #F57520;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.part4{
+    background-color: #F57520;
+    height: 639px;
+}
+.text4{
+    transform: translate(1px);
+    z-index: 1;
+    position: absolute;
+    padding-top: 54px;
+    width: 620px;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.intputs{
+    color: #B3B3B3;
+    font-size: 16px;
+    padding: 10px  103px 10px 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 400;
+}
+textarea{
+    padding-top: 10px;
+    padding-left: 16px;
+    margin-top: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B3B3B3;
+}
+.intput button{
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 247px ;
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+}
+.intput button:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+}
+.da{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 800px;
+}
+.intput{
+    z-index: 2;
+    position: absolute;
+    margin-top: 242px;
+}
+.intput button {
+    z-index: 2;
+    position: absolute;
+    margin-top: 24px;
+    display: block;
+}
+.show{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.show  img{
+    bottom: -639px;
+    right: -114px;
+    position: absolute;
+    height: 640px;
+    width: 1000px;
+}
+.map{
+    background-image: url('./image/map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+footer{
+    padding-top: 102px;
+    height: 320px;
+    background-color: black;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.footercard{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 32px;
+}
+.footercard p{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: white;
+}
+.footercard a{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.footercard a:hover{
+    color: #F57520;
+}
